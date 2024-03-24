@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nanum-myeongjo-regular{
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+#photo1{
+    border-top-left-radius: 13px;
+    background-image: url('../images/photo1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+#photo2{
+    border-top-right-radius: 13px;
+    background-image: url('../images/photo2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+#photo3{
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    background-image: url('../images/photo3.webp');
+    background-size: cover;
+    background-position: center;
+}
+#flags{
+    background-image: url('../images/flags.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#tts{
+    background-image: url('../images/speechphoto.webp');
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    margin-top: 3%;
+    width: 100%;
+    background-color: bisque;
+}
+#footerId{
+    padding-left: 40%;
+    font-size: larger;
+}
+#pdfReaderImage{
+    background-image: url('../images/pdfReaderImage.jpg');
+    background-size:contain;
+    background-position: center;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+#mavitu svg{
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-right: 16px;
+}
+#mavitu a{
+    margin-right: 8px;
+}
+#mavitu a:hover{
+    text-decoration: underline;
+}
